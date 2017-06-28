@@ -1,6 +1,0 @@
-c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll
-c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
-c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\Calculator1.dll
-c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
-c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.dll
-c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\Projects\UnitTestProject1\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
