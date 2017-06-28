@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+ <Row>
+        <d>10</d>
+        <e>5</e>
+        <res>5</res>
+    </Row>
+ <Row>
+        <d>-10</d>
+        <e>-5</e>
+        <res>-5</res>
+    </Row>
+<Row>
+        <d>10</d>
+        <e>-5</e>
+        <res>15</res>
+    </Row>
+ <Row>
+        <d>-10</d>
+        <e>5</e>
+        <res>-15</res>
+ </Row>
+<Row>
+        <d>100.64</d>
+        <e>5.67</e>
+        <res>94.97</res>
+ </Row>
+
+<Row>
+        <d>100</d>
+        <e>5.67</e>
+        <res>94.33</res>
+ </Row>
+
+
+<Row>
+        <d>1000.678</d>
+        <e>5</e>
+        <res>995.678</res>
+ </Row>
+
+</Rows>
+

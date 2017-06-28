@@ -1,4 +1,5 @@
-obj/
-[Bb]in/
+**/obj/
+**/[Bb]in/
 *.suo
+.pdb
 TestResults/

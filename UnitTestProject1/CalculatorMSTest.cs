@@ -1,12 +1,29 @@
 ﻿using System;
+using System.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CSharpCalculator;
 
 namespace UnitTestProject1
-{
+{   
 	[TestClass]
 	public class CalculatorMSTest
 	{
+		private TestContext testContextInstance;
+		public TestContext TestContext
+		{  
+					get { return testContextInstance; }  
+					set { testContextInstance = value; }  
+				}
+
+		//[ClassInitialize]
+
+		//public static void Initialize(TestContext context)
+		//{
+
+		//	TestContext = context;
+
+		//}
+
 		[TestMethod]
 		public void TestAbs()
 		{
@@ -15,7 +32,7 @@ namespace UnitTestProject1
 			//Arrange
 			var dec = 3.14;
 			//Act
-			var result = inst.Abs(-3.14); //!Bug: Abs() method missed decimal part. Actual: 3.0, expected 3.14
+			var result = inst.Abs(-3.14); //!Bug: Abs() method missed decimal part. Actual: 3.0, Expected 3.14
 			//Assert
 
 
@@ -56,6 +73,45 @@ namespace UnitTestProject1
 			Assert.AreEqual(sum3, result3, "Bug");
 			
 
+		}
+	[DeploymentItem(@"UnitTestProject1\Sub.xml"),
+		DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
+				   "|DataDirectory|\\Sub.xml", "Row",
+                    DataAccessMethod.Sequential)]
+			
+		[TestMethod]
+		public void TestSub()
+		{
+			
+			
+			var inst = new Calculator();
+
+			//TODO: для таких случаев нужно использовать DataSource https://msdn.microsoft.com/en-us/library/ms182527.aspx
+			//Arrange
+			
+			var d = Double.Parse((string)TestContext.DataRow ["d"]);
+			var e = Double.Parse((string)TestContext.DataRow["e"]);
+			var result = Double.Parse((string)TestContext.DataRow["res"]);
+			
+			//Act
+
+			var sub = inst.Sub(d, e);
+
+
+			//Arrange
+
+			string dString = (string)TestContext.DataRow["d"];
+			var eString = (string)TestContext.DataRow["e"];
+			var resultString = (string)TestContext.DataRow["res"];
+
+			//Act
+
+			var subString = inst.Sub(dString, eString); 
+			
+		//Assert
+			Assert.AreEqual(sub, result, "Bug in (d - e) subtraction() method");
+
+			Assert.AreEqual(subString.ToString(), resultString, "Bug in (d - e) subtraction() method");
 		}
 
 		[TestMethod]
