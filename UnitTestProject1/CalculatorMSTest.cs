@@ -17,16 +17,19 @@ namespace UnitTestProject1
 			//Act
 			var result = inst.Abs(-3.14); //!Bug: Abs() method missed decimal part. Actual: 3.0, expected 3.14
 			//Assert
-			Assert.IsTrue(result == dec, "Bug");
-			
 
-		}
-		[TestMethod]
+
+			Assert.IsTrue(result == dec, "Bug"); //TODO:  описание ошибки не инормативно; 
+            //TODO: нужно стораться выносить логику из ассертов и использовать в данном случае Assert.AreEqual();
+        }
+        [TestMethod]
 		public void TestAdd()
 		{
 			var inst = new Calculator();
-			//Arrange
-			int t1 = 5;
+
+            //TODO: для таких случаев нужно использовать DataSource https://msdn.microsoft.com/en-us/library/ms182527.aspx
+            //Arrange
+            int t1 = 5;
 			int t2 = 5;
 			var sum = 10;
 			var operand1 = -450.678;
@@ -46,6 +49,7 @@ namespace UnitTestProject1
 			var result3 = inst.Add(otr1,otr2);
 				
 			//Assert
+            //TODO желательно, чтобы aсерт чтобы только одни ассерт был в тесте.
 			Assert.AreEqual(sum, result, "Bug");
 			Assert.AreEqual(sum1, result1, "Bug");
 			Assert.AreEqual(sum2, result2, "Bug");
@@ -57,8 +61,8 @@ namespace UnitTestProject1
 		[TestMethod]
 		public void TestCos()
 		{
-
-			var inst = new Calculator();
+            //TODO: для таких случаев нужно использовать DataSource
+            var inst = new Calculator();
 			//Arrange
 			var zero = 1;
 			var thirty = 0.154;
@@ -70,7 +74,8 @@ namespace UnitTestProject1
 			var round = -0.284;
 			//Act
 			var cosZero = inst.Cos(0);
-			var cosThirty = Math.Round(inst.Cos(30),3);
+            //TODO юнит тесты должны быть просты и бысты, и не должно быть зависимости от других библиотек. нужно убрать Math.Round
+            var cosThirty = Math.Round(inst.Cos(30),3);
 			var cosQuarter = Math.Round(inst.Cos(45),3);
 			var cosSixty = Math.Round(inst.Cos(60),3);
 			var cosNinety = Math.Round(inst.Cos(90),3);
