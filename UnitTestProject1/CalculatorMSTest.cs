@@ -28,7 +28,7 @@ namespace UnitTestProject1
 			//Assert
 
 
-			Assert.AreEqual(dec, result, "Abs calculated incorrectly, expected dec{0}"); 
+			Assert.AreEqual(dec, result, "Abs value calculated incorrectly"); 
 			//TODO:  описание ошибки не инормативно; 
             //TODO: нужно стораться выносить логику из ассертов и использовать в данном случае Assert.AreEqual();
         }
@@ -96,8 +96,8 @@ namespace UnitTestProject1
 			var subString = inst.Sub(dString, eString); 
 			
 		    //Assert
-			Assert.AreEqual(sub, result, "Bug in (d - e) subtraction() method");
-			Assert.AreEqual(subString.ToString(), resultString, "Bug in (d - e) subtraction() method");
+			Assert.AreEqual(result, sub, "Bug in (d - e) subtraction() method");
+			Assert.AreEqual(resultString, subString.ToString(), "Bug in (d - e) subtraction() method");
 		}
 
 		[TestMethod]
@@ -347,8 +347,8 @@ namespace UnitTestProject1
 			var powString = inst.Pow(mString, nString);
 
 			//Assert
-			Assert.AreEqual(pow, result, "Bug in m pow(n) method");
-			Assert.AreEqual(powString.ToString(), resultString, "Bug in m pow(n) method");			
+			Assert.AreEqual(result, pow, "Bug in m pow(n) method");
+			Assert.AreEqual(resultString, powString.ToString(), "Bug in m pow(n) method");			
 		
 		}
 
