@@ -15,15 +15,7 @@ namespace UnitTestProject1
 					set { testContextInstance = value; }  
 				}
 
-		//[ClassInitialize]
-
-		//public static void Initialize(TestContext context)
-		//{
-
-		//	TestContext = context;
-
-		//}
-
+		
 		[TestMethod]
 		public void TestAbs()
 		{
@@ -36,7 +28,8 @@ namespace UnitTestProject1
 			//Assert
 
 
-			Assert.IsTrue(result == dec, "Bug"); //TODO:  описание ошибки не инормативно; 
+			Assert.AreEqual(dec, result, "Abs calculated incorrectly, expected dec{0}"); 
+			//TODO:  описание ошибки не инормативно; 
             //TODO: нужно стораться выносить логику из ассертов и использовать в данном случае Assert.AreEqual();
         }
         [TestMethod]
@@ -60,7 +53,7 @@ namespace UnitTestProject1
 			double otr2 = -2147483648;
 			
 			//Act
-			var result = inst.Add(t1, t2); //!Bug: Cannot summ int values, InvalidCastExceprion shown
+			var result = inst.Add(t1, t2); //!!!Bug: Cannot summ int values, InvalidCastExceprion shown
 			var result1 = inst.Add(operand1, operand2);
 			var result2 = inst.Add(double.Parse(str1),double.Parse(str2));
 			var result3 = inst.Add(otr1,otr2);
