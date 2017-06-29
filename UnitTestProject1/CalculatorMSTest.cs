@@ -74,19 +74,15 @@ namespace UnitTestProject1
 			
 
 		}
-	[DeploymentItem(@"UnitTestProject1\Sub.xml"),
-		DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
-				   "|DataDirectory|\\Sub.xml", "Row",
-                    DataAccessMethod.Sequential)]
+
+	[DeploymentItem(@"UnitTestProject1\Sub.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
+	                "|DataDirectory|\\Sub.xml", "Row", DataAccessMethod.Sequential)]
 			
 		[TestMethod]
 		public void TestSub()
 		{
-			
-			
 			var inst = new Calculator();
 
-			//TODO: для таких случаев нужно использовать DataSource https://msdn.microsoft.com/en-us/library/ms182527.aspx
 			//Arrange
 			
 			var d = Double.Parse((string)TestContext.DataRow ["d"]);
@@ -96,21 +92,18 @@ namespace UnitTestProject1
 			//Act
 
 			var sub = inst.Sub(d, e);
-
-
-			//Arrange
-
-			string dString = (string)TestContext.DataRow["d"];
+		
+			//Arrange string
+			
+		    var dString = (string)TestContext.DataRow["d"];
 			var eString = (string)TestContext.DataRow["e"];
 			var resultString = (string)TestContext.DataRow["res"];
 
-			//Act
-
+			//Act string
 			var subString = inst.Sub(dString, eString); 
 			
-		//Assert
+		    //Assert
 			Assert.AreEqual(sub, result, "Bug in (d - e) subtraction() method");
-
 			Assert.AreEqual(subString.ToString(), resultString, "Bug in (d - e) subtraction() method");
 		}
 
@@ -333,54 +326,36 @@ namespace UnitTestProject1
 			Assert.IsTrue(inst.isPositive(one), "Bug");
 
 		}
+
+		[DeploymentItem(@"UnitTestProject1\Pow.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
+					"|DataDirectory|\\Pow.xml", "Row", DataAccessMethod.Sequential)]
 		[TestMethod]
 		public void TestPow()
 		{
 			var inst = new Calculator();
+			
 			//Arrange
 			
-			var m = 2;
-			var mm = 4;
-			
-			var n = -4;
-			var k = 5.78;
-
-			var pow = 0;
-			var pow1 = 1;
-			var pow2 = 2;
-			var pow22 = 4;
-			var pow23 = 8;
-			var pow222 = -4;
-			var pow2222 = 16;
-			var pow10 = 1024;
-			var pow11= 0.5;
-			var powm2 = 0.25;
+			var m = Double.Parse((string)TestContext.DataRow["m"]);
+			var n = Double.Parse((string)TestContext.DataRow["n"]);
+			var result = Double.Parse((string)TestContext.DataRow["res"]);
 
 			//Act
-			var res = inst.Pow(m, 0);
-			var res1 = inst.Pow(m, 1);
-			var res2 = inst.Pow(m, 2);
-			var res22 = inst.Pow(m, 3);
-			var res3 = inst.Pow(m, 10);
-			var res4 = inst.Pow(m, -1);
-			var res5 = inst.Pow(m, -2);
-			var res6 = inst.Pow(n, 0);
-			var res7 = inst.Pow(n, 1);
-			var res8 = inst.Pow(n, 2);
 
+			var pow = inst.Pow(m, n); //!!  Bug -- Impossible to calculate m pow n, exception error 'System.NotFiniteNumberException' occurred in Calculator1.dll
 
+			//Arrange string
+
+			var mString = (string)TestContext.DataRow["m"]; //!! Bug -- Impossible to get string value for Pow() method arguments
+			var nString = (string)TestContext.DataRow["n"];
+			var resultString = (string)TestContext.DataRow["res"];
+
+			//Act string
+			var powString = inst.Pow(mString, nString);
 
 			//Assert
-			Assert.IsTrue(res==pow1, "Bug");
-			Assert.IsTrue(res1==pow2, "Bug");
-			Assert.IsTrue(res2==pow22, "Bug");
-			Assert.IsTrue(res22 == pow23, "Bug");
-			Assert.IsTrue(res3 == pow10, "Bug");
-			Assert.IsTrue(res4 == pow11, "Bug");
-			Assert.IsTrue(res5 == powm2, "Bug");
-			Assert.IsTrue(res6 == pow1, "Bug");
-			Assert.IsTrue(res7 == pow222, "Bug");
-			Assert.IsTrue(res8 == pow2222, "Bug");
+			Assert.AreEqual(pow, result, "Bug in m pow(n) method");
+			Assert.AreEqual(powString.ToString(), resultString, "Bug in m pow(n) method");			
 		
 		}
 
