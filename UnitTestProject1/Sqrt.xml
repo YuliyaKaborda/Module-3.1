@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    <x>9</x>
+    <res>3</res>
+  </Row>
+  <Row>
+    <x>1000000</x>
+    <res>1000</res>
+  </Row>
+  <Row>
+    <x>2,5</x>
+    <res>1,5811388300842</res>   
+  </Row>
+  <Row>
+    <x>5.5</x>
+    <res>2.3452078799117</res>
+         2.3452078799117148
+  </Row>
+  <Row>
+        <x>2</x>
+        <res>1.4142135623731</res>
+</Row>
+  <Row>
+    <x>0</x>
+    <res>0</res>
+  </Row>
+  <Row>
+    <x>1</x>
+    <res>1</res>
+  </Row>
+</Rows>
+

@@ -23,48 +23,45 @@ namespace UnitTestProject1
 
 			//Arrange
 			var dec = 3.14;
+			
 			//Act
 			var result = inst.Abs(-3.14); //!Bug: Abs() method missed decimal part. Actual: 3.0, Expected 3.14
+			
 			//Assert
-
-
 			Assert.AreEqual(dec, result, "Abs value calculated incorrectly"); 
-			//TODO:  описание ошибки не инормативно; 
-            //TODO: нужно стораться выносить логику из ассертов и использовать в данном случае Assert.AreEqual();
+
         }
-        [TestMethod]
+
+		[DeploymentItem(@"UnitTestProject1\Add.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
+					"|DataDirectory|\\Add.xml", "Row", DataAccessMethod.Sequential)]
+		[TestMethod]
 		public void TestAdd()
 		{
 			var inst = new Calculator();
 
-            //TODO: для таких случаев нужно использовать DataSource https://msdn.microsoft.com/en-us/library/ms182527.aspx
             //Arrange
-            int t1 = 5;
-			int t2 = 5;
-			var sum = 10;
-			var operand1 = -450.678;
-			var operand2 = 67000.60;
-			var str1 = "56";
-			var str2 = "90";
-			var sum1 = 66549.922;
-			var sum2 = 146;
-			var sum3 = -4294967296;
-			double otr1 = -2147483648;
-			double otr2 = -2147483648;
+
+			var d = Double.Parse((string)TestContext.DataRow["d"]); ///!!! Bug: Decimal number with ',' comma sign parsed incorrectly, 5,6 parsed as 56,0. 9,0 as 90,0.
+			var result = Double.Parse((string)TestContext.DataRow["res"]);
+			var e = Double.Parse((string)TestContext.DataRow["e"]);
 			
+
 			//Act
-			var result = inst.Add(t1, t2); //!!!Bug: Cannot summ int values, InvalidCastExceprion shown
-			var result1 = inst.Add(operand1, operand2);
-			var result2 = inst.Add(double.Parse(str1),double.Parse(str2));
-			var result3 = inst.Add(otr1,otr2);
-				
-			//Assert
-            //TODO желательно, чтобы aсерт чтобы только одни ассерт был в тесте.
-			Assert.AreEqual(sum, result, "Bug");
-			Assert.AreEqual(sum1, result1, "Bug");
-			Assert.AreEqual(sum2, result2, "Bug");
-			Assert.AreEqual(sum3, result3, "Bug");
+			var add = inst.Add(d, e); 
 			
+			//Assert
+			Assert.AreEqual(result, add, "Add() method summate with error");
+
+			//Arrange string
+			var dString = (string)TestContext.DataRow["d"];
+			var eString = (string)TestContext.DataRow["e"];
+			var resultString = (string)TestContext.DataRow["res"];
+
+			//Act string
+			var addString = inst.Add(dString, eString);  //!!!Bug: Cannot summate strings with int values "5"+"5", InvalidCastExceprion 
+			
+			//Assert string
+			Assert.AreEqual(resultString, addString.ToString(), "Add() method summate with error");								
 
 		}
 
@@ -350,6 +347,39 @@ namespace UnitTestProject1
 			Assert.AreEqual(result, pow, "Bug in m pow(n) method");
 			Assert.AreEqual(resultString, powString.ToString(), "Bug in m pow(n) method");			
 		
+		}
+
+		[DeploymentItem(@"UnitTestProject1\Sqrt.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
+					"|DataDirectory|\\Sqrt.xml", "Row", DataAccessMethod.Sequential)]
+		[TestMethod]
+		public void TestSqrt()
+		{
+			var inst = new Calculator();
+			
+			//Arrange string
+
+			var xString = (string)TestContext.DataRow["x"]; 
+			var resultString = (string)TestContext.DataRow["res"];
+
+			//Act string
+			var sqrtString = inst.Sqrt(xString); /// !! Bug: Impossible execute sqrt() method for string with decimal fraction numbers "2,5", "5.5" -'System.FormatException'
+
+			//Assert
+			Assert.AreEqual(resultString, sqrtString.ToString(), "Bug in m Sqrt(x) method");
+			
+			//Arrange
+
+			var x = Double.Parse((string)TestContext.DataRow["x"]); ///!!! Bug: Decimal test data with ',' comma sign parsed incorrectly, e.g. 2,5 used as 25,0. 1,58 as 158,0.
+			var result = Double.Parse((string)TestContext.DataRow["res"]);
+
+			//Act
+			var sqrt = inst.Sqrt(x); ////!!! Sqrt from decimal fraction numbers like 2.5 calculated incorrectly. Expected:<1.5811388300842>. Actual:<1.4142135623731>; For 5.5 - Expected:<2.3452078799117>. Actual:<2.44948974278318>
+			
+			//Assert
+			Assert.AreEqual(result, sqrt, "Sqrt from x calculated incorrectly");
+			
+			
+
 		}
 
 	}
