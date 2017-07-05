@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="65" result="Failed" total="65" passed="48" failed="17" inconclusive="0" skipped="0" asserts="65" engine-version="3.6.1.0" clr-version="4.0.30319.42000" start-time="2017-07-05 14:29:49Z" end-time="2017-07-05 14:29:51Z" duration="1.991321">
+  <command-line><![CDATA[packages\NUnit.ConsoleRunner.3.6.1\tools\nunit3-console.exe  "NUnitTestProject\bin\Debug\NUnitTestProject.dll"]]></command-line>
+  <test-suite type="Assembly" id="0-1076" name="NUnitTestProject.dll" fullname="C:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\bin\Debug\NUnitTestProject.dll" runstate="Runnable" testcasecount="65" result="Failed" site="Child" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:51Z" duration="1.086385" total="65" passed="48" failed="17" warnings="0" inconclusive="0" skipped="0" asserts="65">
+    <environment framework-version="3.7.1.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1" machine-name="EPBYMINW4390" user="Yuliya_Kaborda" user-domain="MINSK" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="5224" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1077" name="NUnitTestProject" fullname="NUnitTestProject" runstate="Runnable" testcasecount="65" result="Failed" site="Child" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:51Z" duration="1.047058" total="65" passed="48" failed="17" warnings="0" inconclusive="0" skipped="0" asserts="65">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestFixture" id="0-1000" name="NUnitTest" fullname="NUnitTestProject.NUnitTest" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="65" result="Failed" site="Child" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:51Z" duration="1.027005" total="65" passed="48" failed="17" warnings="0" inconclusive="0" skipped="0" asserts="65">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="ParameterizedMethod" id="0-1008" name="TestCos" fullname="NUnitTestProject.NUnitTest.TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.175290" total="7" passed="4" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1001" name="TestCos(0,1)" fullname="NUnitTestProject.NUnitTest.TestCos(0,1)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="258336826" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.022322" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1002" name="TestCos(30,0.154251449887584d)" fullname="NUnitTestProject.NUnitTest.TestCos(30,0.154251449887584d)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="717678895" result="Failed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.025004" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in calculation cos 30
+  Expected: 0.15425144988758399d
+  But was:  0.15425144988758405d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestCos(Int32 x, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 39
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in calculation cos 30
+  Expected: 0.15425144988758399d
+  But was:  0.15425144988758405d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestCos(Int32 x, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 39
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1003" name="TestCos(45,0.52532198881773d)" fullname="NUnitTestProject.NUnitTest.TestCos(45,0.52532198881773d)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="189810636" result="Failed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000833" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in calculation cos 45
+  Expected: 0.52532198881772996d
+  But was:  0.52532198881772973d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestCos(Int32 x, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 39
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in calculation cos 45
+  Expected: 0.52532198881772996d
+  But was:  0.52532198881772973d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestCos(Int32 x, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 39
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1004" name="TestCos(60,-0.952412980415156d)" fullname="NUnitTestProject.NUnitTest.TestCos(60,-0.952412980415156d)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1472373621" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000209" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1005" name="TestCos(1,0.54030230586814d)" fullname="NUnitTestProject.NUnitTest.TestCos(1,0.54030230586814d)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="171712557" result="Failed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000861" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in calculation cos 1
+  Expected: 0.54030230586813999d
+  But was:  0.54030230586813977d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestCos(Int32 x, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 39
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in calculation cos 1
+  Expected: 0.54030230586813999d
+  But was:  0.54030230586813977d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestCos(Int32 x, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 39
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1006" name="TestCos(90,-0.44807361612917d)" fullname="NUnitTestProject.NUnitTest.TestCos(90,-0.44807361612917d)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="869982289" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000187" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1007" name="TestCos(360,-0.283691091486527d)" fullname="NUnitTestProject.NUnitTest.TestCos(360,-0.283691091486527d)" methodname="TestCos" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="99958112" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000261" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1016" name="TestCosString" fullname="NUnitTestProject.NUnitTest.TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="7" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.140032" total="7" passed="7" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <test-case id="0-1009" name="TestCosString(&quot;90&quot;,&quot;-0.44807361612917&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;90&quot;,&quot;-0.44807361612917&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="401063251" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.001400" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1010" name="TestCosString(&quot;1&quot;,&quot;0.54030230586814&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;1&quot;,&quot;0.54030230586814&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="560645608" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000278" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1011" name="TestCosString(&quot;30&quot;,&quot;0.154251449887584&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;30&quot;,&quot;0.154251449887584&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="633405671" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000276" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1012" name="TestCosString(&quot;45&quot;,&quot;0.52532198881773&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;45&quot;,&quot;0.52532198881773&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="2063490306" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000180" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1013" name="TestCosString(&quot;60&quot;,&quot;-0.952412980415156&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;60&quot;,&quot;-0.952412980415156&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="320882561" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000275" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1014" name="TestCosString(&quot;0&quot;,&quot;1&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;0&quot;,&quot;1&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="283901348" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000267" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1015" name="TestCosString(&quot;360&quot;,&quot;-0.283691091486527&quot;)" fullname="NUnitTestProject.NUnitTest.TestCosString(&quot;360&quot;,&quot;-0.283691091486527&quot;)" methodname="TestCosString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1485016984" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000267" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1042" name="TestDivide" fullname="NUnitTestProject.NUnitTest.TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="9" result="Failed" site="Child" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.171020" total="9" passed="8" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="9">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1033" name="TestDivide(8,8,1)" fullname="NUnitTestProject.NUnitTest.TestDivide(8,8,1)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="607692836" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.001026" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1034" name="TestDivide(8,1,8)" fullname="NUnitTestProject.NUnitTest.TestDivide(8,1,8)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1981333957" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000307" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1035" name="TestDivide(8,4,2)" fullname="NUnitTestProject.NUnitTest.TestDivide(8,4,2)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1246068737" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000268" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1036" name="TestDivide(4,8,0.5d)" fullname="NUnitTestProject.NUnitTest.TestDivide(4,8,0.5d)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1010037157" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000258" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1037" name="TestDivide(-8,4,-2)" fullname="NUnitTestProject.NUnitTest.TestDivide(-8,4,-2)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1810730766" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000281" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1038" name="TestDivide(-8,-4,2)" fullname="NUnitTestProject.NUnitTest.TestDivide(-8,-4,2)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="2022053345" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000314" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1039" name="TestDivide(8.6d,4,2.15d)" fullname="NUnitTestProject.NUnitTest.TestDivide(8.6d,4,2.15d)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1218037221" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000346" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1040" name="TestDivide(8.6d,4.2d,2.048d)" fullname="NUnitTestProject.NUnitTest.TestDivide(8.6d,4.2d,2.048d)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1734507427" result="Failed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.001679" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with 8.6 divides 4.2
+  Expected: 2.048d
+  But was:  2.0476190476190474d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestDivide(Double a, Double b, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 118
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with 8.6 divides 4.2
+  Expected: 2.048d
+  But was:  2.0476190476190474d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestDivide(Double a, Double b, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 118
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1041" name="TestDivide(0,4,0)" fullname="NUnitTestProject.NUnitTest.TestDivide(0,4,0)" methodname="TestDivide" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="473616768" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000285" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1059" name="TestIsNegative" fullname="NUnitTestProject.NUnitTest.TestIsNegative" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.080036" total="4" passed="2" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1055" name="TestIsNegative(0)" fullname="NUnitTestProject.NUnitTest.TestIsNegative(0)" methodname="TestIsNegative" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1855195288" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.003531" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1056" name="TestIsNegative(6.8d)" fullname="NUnitTestProject.NUnitTest.TestIsNegative(6.8d)" methodname="TestIsNegative" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1656620476" result="Failed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.005925" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with negative definition of 6.8
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegative(Double arg) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 156
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with negative definition of 6.8
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegative(Double arg) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 156
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1057" name="TestIsNegative(1)" fullname="NUnitTestProject.NUnitTest.TestIsNegative(1)" methodname="TestIsNegative" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1594012320" result="Failed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.001533" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with negative definition of 1
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegative(Double arg) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 156
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with negative definition of 1
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegative(Double arg) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 156
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1058" name="TestIsNegative(-6.58d)" fullname="NUnitTestProject.NUnitTest.TestIsNegative(-6.58d)" methodname="TestIsNegative" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="2094182215" result="Passed" start-time="2017-07-05 14:29:50Z" end-time="2017-07-05 14:29:50Z" duration="0.000235" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1065" name="TestIsNegativeString" fullname="NUnitTestProject.NUnitTest.TestIsNegativeString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="5" result="Failed" site="Child" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.099991" total="5" passed="3" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="5">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1060" name="TestIsNegativeString(&quot;1&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsNegativeString(&quot;1&quot;)" methodname="TestIsNegativeString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="658571280" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.001910" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with negative definition of 1
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegativeString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 171
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with negative definition of 1
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegativeString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 171
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1061" name="TestIsNegativeString(&quot;6.80&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsNegativeString(&quot;6.80&quot;)" methodname="TestIsNegativeString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="838763406" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.001364" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with negative definition of 6.80
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegativeString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 171
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with negative definition of 6.80
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsNegativeString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 171
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1062" name="TestIsNegativeString(&quot;0&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsNegativeString(&quot;0&quot;)" methodname="TestIsNegativeString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1904895476" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000221" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1063" name="TestIsNegativeString(&quot;-6,80&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsNegativeString(&quot;-6,80&quot;)" methodname="TestIsNegativeString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="78033625" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000253" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1064" name="TestIsNegativeString(&quot;-6.58&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsNegativeString(&quot;-6.58&quot;)" methodname="TestIsNegativeString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1599065486" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000206" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1070" name="TestIsPositive" fullname="NUnitTestProject.NUnitTest.TestIsPositive" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.079971" total="4" passed="3" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1066" name="TestIsPositive(-6.58d)" fullname="NUnitTestProject.NUnitTest.TestIsPositive(-6.58d)" methodname="TestIsPositive" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1857885627" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.002635" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1067" name="TestIsPositive(0)" fullname="NUnitTestProject.NUnitTest.TestIsPositive(0)" methodname="TestIsPositive" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="728062451" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000244" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1068" name="TestIsPositive(1)" fullname="NUnitTestProject.NUnitTest.TestIsPositive(1)" methodname="TestIsPositive" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="312707532" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.001528" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with positive definition of 1
+  Expected: False
+  But was:  True
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsPositive(Double arg) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 186
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with positive definition of 1
+  Expected: False
+  But was:  True
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsPositive(Double arg) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 186
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1069" name="TestIsPositive(-6)" fullname="NUnitTestProject.NUnitTest.TestIsPositive(-6)" methodname="TestIsPositive" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="17097656" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000218" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1075" name="TestIsPositiveString" fullname="NUnitTestProject.NUnitTest.TestIsPositiveString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="4" result="Failed" site="Child" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.009986" total="4" passed="2" failed="2" warnings="0" inconclusive="0" skipped="0" asserts="4">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1071" name="TestIsPositiveString(&quot;-6.58&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsPositiveString(&quot;-6.58&quot;)" methodname="TestIsPositiveString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1736751914" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.001840" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with positive definition of -6.58
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsPositiveString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 201
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with positive definition of -6.58
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsPositiveString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 201
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1072" name="TestIsPositiveString(&quot;1&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsPositiveString(&quot;1&quot;)" methodname="TestIsPositiveString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="727084911" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000168" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1073" name="TestIsPositiveString(&quot;0&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsPositiveString(&quot;0&quot;)" methodname="TestIsPositiveString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="680403741" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.001122" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug with positive definition of 0
+  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsPositiveString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 201
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug with positive definition of 0
+  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestIsPositiveString(String argString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 201
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1074" name="TestIsPositiveString(&quot;6.80&quot;)" fullname="NUnitTestProject.NUnitTest.TestIsPositiveString(&quot;6.80&quot;)" methodname="TestIsPositiveString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1275316630" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000200" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1054" name="TestMultiply" fullname="NUnitTestProject.NUnitTest.TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="11" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.022090" total="11" passed="11" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+          <test-case id="0-1043" name="TestMultiply(4,8,32)" fullname="NUnitTestProject.NUnitTest.TestMultiply(4,8,32)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="980580714" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000923" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1044" name="TestMultiply(8,4,32)" fullname="NUnitTestProject.NUnitTest.TestMultiply(8,4,32)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="735075378" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000244" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1045" name="TestMultiply(-8,4,-32)" fullname="NUnitTestProject.NUnitTest.TestMultiply(-8,4,-32)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="569179856" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000258" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1046" name="TestMultiply(-8,-4,32)" fullname="NUnitTestProject.NUnitTest.TestMultiply(-8,-4,32)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="480964306" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000246" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1047" name="TestMultiply(8.6d,4,34.4d)" fullname="NUnitTestProject.NUnitTest.TestMultiply(8.6d,4,34.4d)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="165950740" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000251" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1048" name="TestMultiply(8.6d,4.2d,36.12d)" fullname="NUnitTestProject.NUnitTest.TestMultiply(8.6d,4.2d,36.12d)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="510703115" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000234" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1049" name="TestMultiply(0,4,0)" fullname="NUnitTestProject.NUnitTest.TestMultiply(0,4,0)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="678303989" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000267" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1050" name="TestMultiply(4,0,0)" fullname="NUnitTestProject.NUnitTest.TestMultiply(4,0,0)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1629519005" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000301" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1051" name="TestMultiply(8,1,8)" fullname="NUnitTestProject.NUnitTest.TestMultiply(8,1,8)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1352813855" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000225" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1052" name="TestMultiply(8,8,64)" fullname="NUnitTestProject.NUnitTest.TestMultiply(8,8,64)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="776018973" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000214" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1053" name="TestMultiply(1,1,1)" fullname="NUnitTestProject.NUnitTest.TestMultiply(1,1,1)" methodname="TestMultiply" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="707140761" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000242" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1024" name="TestSin" fullname="NUnitTestProject.NUnitTest.TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.016016" total="7" passed="2" failed="5" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1017" name="TestSin(1,0.841470984807897d)" fullname="NUnitTestProject.NUnitTest.TestSin(1,0.841470984807897d)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1780742194" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.001604" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in sin() calculation for 1
+  Expected: 0.84147098480789695d
+  But was:  0.8414709848078965d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in sin() calculation for 1
+  Expected: 0.84147098480789695d
+  But was:  0.8414709848078965d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1018" name="TestSin(0,0)" fullname="NUnitTestProject.NUnitTest.TestSin(0,0)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="532895276" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000116" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1019" name="TestSin(30,-0.988031624092862d)" fullname="NUnitTestProject.NUnitTest.TestSin(30,-0.988031624092862d)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1519062059" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000892" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in sin() calculation for 30
+  Expected: -0.98803162409286205d
+  But was:  -0.98803162409286183d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in sin() calculation for 30
+  Expected: -0.98803162409286205d
+  But was:  -0.98803162409286183d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1020" name="TestSin(45,0.850903524534118d)" fullname="NUnitTestProject.NUnitTest.TestSin(45,0.850903524534118d)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1538942138" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000939" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in sin() calculation for 45
+  Expected: 0.85090352453411799d
+  But was:  0.85090352453411844d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in sin() calculation for 45
+  Expected: 0.85090352453411799d
+  But was:  0.85090352453411844d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1021" name="TestSin(60,-0.304810621102217d)" fullname="NUnitTestProject.NUnitTest.TestSin(60,-0.304810621102217d)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="467926472" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000897" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in sin() calculation for 60
+  Expected: -0.30481062110221702d
+  But was:  -0.30481062110221668d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in sin() calculation for 60
+  Expected: -0.30481062110221702d
+  But was:  -0.30481062110221668d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1022" name="TestSin(90,0.893996663600558d)" fullname="NUnitTestProject.NUnitTest.TestSin(90,0.893996663600558d)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="844428546" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000799" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in sin() calculation for 90
+  Expected: 0.89399666360055796d
+  But was:  0.89399666360055785d
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in sin() calculation for 90
+  Expected: 0.89399666360055796d
+  But was:  0.89399666360055785d
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSin(Int32 y, Double res) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 77
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1023" name="TestSin(360,0.958915723414307d)" fullname="NUnitTestProject.NUnitTest.TestSin(360,0.958915723414307d)" methodname="TestSin" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="333438359" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000127" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedMethod" id="0-1032" name="TestSinString" fullname="NUnitTestProject.NUnitTest.TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" testcasecount="7" result="Failed" site="Child" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.109145" total="7" passed="6" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="7">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-case id="0-1025" name="TestSinString(&quot;30&quot;,&quot;-0.988031624092862&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;30&quot;,&quot;-0.988031624092862&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="2084394485" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000516" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1026" name="TestSinString(&quot;360&quot;,&quot;0.95891572341430653&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;360&quot;,&quot;0.95891572341430653&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="83282840" result="Failed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.005710" asserts="1">
+            <failure>
+              <message><![CDATA[  Bug in sin() calculation for 360
+  Expected string length 19 but was 17. Strings differ at index 16.
+  Expected: "0.95891572341430653"
+  But was:  "0.958915723414307"
+  ---------------------------^
+]]></message>
+              <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSinString(String yString, String resString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 96
+]]></stack-trace>
+            </failure>
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+            <assertions>
+              <assertion result="Failed">
+                <message><![CDATA[  Bug in sin() calculation for 360
+  Expected string length 19 but was 17. Strings differ at index 16.
+  Expected: "0.95891572341430653"
+  But was:  "0.958915723414307"
+  ---------------------------^
+]]></message>
+                <stack-trace><![CDATA[at NUnitTestProject.NUnitTest.TestSinString(String yString, String resString) in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\NUnitTestProject\NUnitTest.cs:line 96
+]]></stack-trace>
+              </assertion>
+            </assertions>
+          </test-case>
+          <test-case id="0-1027" name="TestSinString(&quot;1&quot;,&quot;0.841470984807897&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;1&quot;,&quot;0.841470984807897&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1092371118" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000177" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1028" name="TestSinString(&quot;0&quot;,&quot;0&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;0&quot;,&quot;0&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1735489562" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000185" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1029" name="TestSinString(&quot;45&quot;,&quot;0.850903524534118&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;45&quot;,&quot;0.850903524534118&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1534990097" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000249" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1030" name="TestSinString(&quot;60&quot;,&quot;-0.304810621102217&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;60&quot;,&quot;-0.304810621102217&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="1001399276" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000182" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+          <test-case id="0-1031" name="TestSinString(&quot;90&quot;,&quot;0.893996663600558&quot;)" fullname="NUnitTestProject.NUnitTest.TestSinString(&quot;90&quot;,&quot;0.893996663600558&quot;)" methodname="TestSinString" classname="NUnitTestProject.NUnitTest" runstate="Runnable" seed="723486243" result="Passed" start-time="2017-07-05 14:29:51Z" end-time="2017-07-05 14:29:51Z" duration="0.000197" asserts="1">
+            <output><![CDATA[NUnitTests run for Calculator have been started
+NUmitTests have been completed
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
