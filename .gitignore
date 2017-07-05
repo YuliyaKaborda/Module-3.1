@@ -1,4 +1,6 @@
 **/obj/
+**/.nuget/
+**/packages/
 **/[Bb]in/
 *.suo
 .pdb
