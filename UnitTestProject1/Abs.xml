@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Rows>
+  <Row>
+    <x>1,51</x>
+    <res>1,51</res>
+  </Row>
+  <Row>
+    <x>-3,14</x>
+    <res>3,14</res>
+  </Row>
+  <Row>
+    <x>3.14</x>
+    <res>3.14</res>
+  </Row>
+  <Row>
+    <x>-3.14</x>
+    <res>3.14</res>
+  </Row>
+  <Row>
+    <x>-3,1</x>
+    <res>3,1</res>
+  </Row>
+  <Row>
+    <x>2</x>
+    <res>2</res>
+  </Row>
+  <Row>
+    <x>-5</x>
+    <res>5</res>   
+  </Row>
+  <Row>
+    <x>1</x>
+    <res>1</res>
+  </Row>
+  <Row>
+        <x>0</x>
+        <res>0</res>
+</Row>
+  <Row>
+    <x>-1</x>
+    <res>1</res>
+  </Row>
+</Rows>
+
