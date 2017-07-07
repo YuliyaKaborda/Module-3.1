@@ -28,7 +28,7 @@ namespace UnitTestProject1
 
 		[DeploymentItem(@"UnitTestProject1\Abs.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
 					"|DataDirectory|\\Abs.xml", "Row", DataAccessMethod.Sequential)]
-		[TestMethod]
+		[TestCategory("Daily"),TestMethod]
 		public void TestAbs()
 		{		
 			//Arrange
@@ -63,7 +63,7 @@ namespace UnitTestProject1
 
 		[DeploymentItem(@"UnitTestProject1\Add.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
 					"|DataDirectory|\\Add.xml", "Row", DataAccessMethod.Sequential)]
-		[TestMethod]
+		[TestCategory("Daily"), TestMethod]
 		public void TestAdd()
 		{
 
@@ -103,7 +103,7 @@ namespace UnitTestProject1
 		[DeploymentItem(@"UnitTestProject1\Sub.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
 					"|DataDirectory|\\Sub.xml", "Row", DataAccessMethod.Sequential)]
 
-		[TestMethod]
+		[TestCategory("Daily"), TestMethod]
 		public void TestSub()
 		{
 			var inst = new Calculator();
@@ -151,7 +151,7 @@ namespace UnitTestProject1
 			var result = Double.Parse((string)TestContext.DataRow["res"]);
 
 			//Act
-			var pow = inst.Pow(m, n); //!!  Bug -- Impossible to calculate m pow n, exception error 'System.NotFiniteNumberException' occurred in Calculator1.dll
+			var pow = inst.Pow(m, n); //!!  Bug -- Impossible to calculate m pow n for any numbers, exception error 'System.NotFiniteNumberException'
 			
 			//Assert
 			Assert.AreEqual(result, pow, string.Format("Bug in pow() method for {0} in pow {1}", m,n));	
@@ -194,7 +194,7 @@ namespace UnitTestProject1
 		
 		[DeploymentItem(@"UnitTestProject1\Sqrt.xml"), DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
 						"|DataDirectory|\\Sqrt.xml", "Row", DataAccessMethod.Sequential)]
-			[TestMethod]
+	    	[TestCategory("Daily"), TestMethod]
 			public void TestSqrtString()
 			{
 				//Arrange string
@@ -213,6 +213,7 @@ namespace UnitTestProject1
 			[TestCleanup]
 			public void CleanUp()
 			{
+				inst = null;
 				Console.WriteLine("MSTests have been completed");
 			}
 			

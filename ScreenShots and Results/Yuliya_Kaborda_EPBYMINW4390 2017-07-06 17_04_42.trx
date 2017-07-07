@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6e050656-e96a-4790-b04c-5783798415e7" name="Yuliya_Kaborda@EPBYMINW4390 2017-07-06 17:04:42" runUser="MINSK\Yuliya_Kaborda" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2017-07-06T17:04:42.8085374+03:00" queuing="2017-07-06T17:04:42.8085374+03:00" start="2017-07-06T17:04:42.8085374+03:00" finish="2017-07-06T17:04:42.9085394+03:00" />
+  <TestSettings name="default" id="b0aafad8-91ff-4917-8207-0c9292a4bc00">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Yuliya_Kaborda_EPBYMINW4390 2017-07-06 17_04_42" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="58fee3fb-8c62-4595-8828-a62d1dfb2533" testId="7d7ae331-562a-49ae-9b4d-d7b87f6a90d6" testName="TestAbs (Data Row 0)" computerName="EPBYMINW4390" duration="00:00:00.0120518" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58fee3fb-8c62-4595-8828-a62d1dfb2533">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80cd5a3e-cdef-4058-9f2a-8b2d3f50dfe8" testId="2a78d32f-6bb2-43f9-9d77-75b334998af2" testName="TestAbs (Data Row 1)" computerName="EPBYMINW4390" duration="00:00:00.0000469" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80cd5a3e-cdef-4058-9f2a-8b2d3f50dfe8">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d87ddc65-bcc1-4e54-9c2b-1f00f1132c0d" testId="6d99a4f0-e7aa-420a-8662-5d162a5ca389" testName="TestAbs (Data Row 2)" computerName="EPBYMINW4390" duration="00:00:00.0055465" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d87ddc65-bcc1-4e54-9c2b-1f00f1132c0d">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3.14&gt;. Actual:&lt;3&gt;. Abs() value calculated incorrectly for 3.14</Message>
+          <StackTrace>   at UnitTestProject1.CalculatorMSTest.TestAbs() in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\CalculatorMSTest.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77950319-2c74-48d0-aaaf-04a3debef7a4" testId="2143720b-5cbb-4368-a17e-c1977a979836" testName="TestAbs (Data Row 3)" computerName="EPBYMINW4390" duration="00:00:00.0005122" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77950319-2c74-48d0-aaaf-04a3debef7a4">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3.14&gt;. Actual:&lt;3&gt;. Abs() value calculated incorrectly for -3.14</Message>
+          <StackTrace>   at UnitTestProject1.CalculatorMSTest.TestAbs() in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\CalculatorMSTest.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="981ef2b0-cc3b-4aeb-9d41-aa7073b3d4e1" testId="3aefec40-dcbf-4bf6-9b11-a143ef9fd5a7" testName="TestAbs (Data Row 4)" computerName="EPBYMINW4390" duration="00:00:00.0000146" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="981ef2b0-cc3b-4aeb-9d41-aa7073b3d4e1">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13870a7d-0796-4cf9-a430-790708297a53" testId="c40b3004-dd04-4729-81fb-3983ee0e3264" testName="TestAbs (Data Row 5)" computerName="EPBYMINW4390" duration="00:00:00.0000149" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13870a7d-0796-4cf9-a430-790708297a53">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5103c2f-4034-4bc4-8025-4037d4d0616e" testId="adceae4e-32de-423b-a623-671682e9f0c7" testName="TestAbs (Data Row 6)" computerName="EPBYMINW4390" duration="00:00:00.0000071" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5103c2f-4034-4bc4-8025-4037d4d0616e">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a54392d6-7a44-4853-80a8-e169330b8963" testId="035cf202-6fd6-4c44-a85c-ae695586d08e" testName="TestAbs (Data Row 7)" computerName="EPBYMINW4390" duration="00:00:00.0000068" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a54392d6-7a44-4853-80a8-e169330b8963">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="506e0be2-4936-467b-9529-90e016df2159" testId="473295a6-c6c7-4ff1-8c2d-09a8c37a0007" testName="TestAbs (Data Row 8)" computerName="EPBYMINW4390" duration="00:00:00.0000186" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="506e0be2-4936-467b-9529-90e016df2159">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9cd30ee6-af4e-49b2-a43c-a1122f3e0cfa" testId="15b38854-23be-405f-8aa7-0c399ab82884" testName="TestAbs (Data Row 9)" computerName="EPBYMINW4390" duration="00:00:00.0000080" startTime="2017-07-06T17:04:42.6285338+03:00" endTime="2017-07-06T17:04:42.7685366+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9cd30ee6-af4e-49b2-a43c-a1122f3e0cfa">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98214bc8-f5a3-419d-a7b1-9f1632903433" testId="6e204378-956b-4564-a333-201122fb22d1" testName="TestAdd (Data Row 0)" computerName="EPBYMINW4390" duration="00:00:00.0004537" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98214bc8-f5a3-419d-a7b1-9f1632903433">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="03116000-e017-4285-99c2-e76503f46602" testId="0cbbc125-e3b8-4982-9ab1-3dc725542416" testName="TestAdd (Data Row 1)" computerName="EPBYMINW4390" duration="00:00:00.0000124" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03116000-e017-4285-99c2-e76503f46602">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f145727-6da6-404e-9c5a-a72cd44dbf2b" testId="662391af-a707-4dd6-9827-7ebf94f001f3" testName="TestAdd (Data Row 2)" computerName="EPBYMINW4390" duration="00:00:00.0000077" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f145727-6da6-404e-9c5a-a72cd44dbf2b">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4354477c-b9db-41af-912a-aa52026f40aa" testId="4ce7e163-3538-4aac-8898-a56b75f19566" testName="TestAdd (Data Row 3)" computerName="EPBYMINW4390" duration="00:00:00.0000152" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4354477c-b9db-41af-912a-aa52026f40aa">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a22e1f5b-344f-4027-95f8-2e577a42fc5e" testId="41cd113a-7f0a-4809-923a-21fde2eca4d8" testName="TestAdd (Data Row 4)" computerName="EPBYMINW4390" duration="00:00:00.0000105" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a22e1f5b-344f-4027-95f8-2e577a42fc5e">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba07085d-dbcd-448a-b779-c3133144cdbf" testId="2b553552-784c-4634-a657-d04c88fff5a5" testName="TestAdd (Data Row 5)" computerName="EPBYMINW4390" duration="00:00:00.0000071" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba07085d-dbcd-448a-b779-c3133144cdbf">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7bf8a3bf-414a-4de9-b0aa-c3f9bd4b3bc3" testId="6b8f53ae-eb96-4e05-8939-028f701921a2" testName="TestAdd (Data Row 6)" computerName="EPBYMINW4390" duration="00:00:00.0000074" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7bf8a3bf-414a-4de9-b0aa-c3f9bd4b3bc3">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a39a6c11-c815-4d7e-adcb-1c8b6440da2b" testId="80522f34-adde-4d47-baa3-f17faa65c9f1" testName="TestSub (Data Row 0)" computerName="EPBYMINW4390" duration="00:00:00.0004652" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a39a6c11-c815-4d7e-adcb-1c8b6440da2b">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a5d0de41-d04c-4c44-8777-7dc93ac9ddd6" testId="5705e85e-3a30-4556-8d2e-85564032ab7e" testName="TestSub (Data Row 1)" computerName="EPBYMINW4390" duration="00:00:00.0000146" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5d0de41-d04c-4c44-8777-7dc93ac9ddd6">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ebc0696-5f5c-492c-9a1a-79e79deec54b" testId="336ef4f4-d3e3-4e38-b461-c2155ae27c96" testName="TestSub (Data Row 2)" computerName="EPBYMINW4390" duration="00:00:00.0000077" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ebc0696-5f5c-492c-9a1a-79e79deec54b">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef89ff85-95e8-4086-a7dc-e29669efa421" testId="3665dce3-07ba-4aa9-8f99-97b1110b3410" testName="TestSub (Data Row 3)" computerName="EPBYMINW4390" duration="00:00:00.0000074" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef89ff85-95e8-4086-a7dc-e29669efa421">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d5bf705-e071-41e6-8da5-abc079f304a5" testId="7e78ccbc-7f01-4cc3-9273-047d6d3d9ee8" testName="TestSub (Data Row 4)" computerName="EPBYMINW4390" duration="00:00:00.0000077" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d5bf705-e071-41e6-8da5-abc079f304a5">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4ea525f-d454-4a5f-ac00-dd0d8be68191" testId="45e34de8-adff-4b86-8566-3dd8e9eeb724" testName="TestSub (Data Row 5)" computerName="EPBYMINW4390" duration="00:00:00.0000130" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4ea525f-d454-4a5f-ac00-dd0d8be68191">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0f86f42d-57aa-4614-b3c3-6f456127e2e1" testId="8b4e8bdf-c463-4ea6-b67c-20c7430dd740" testName="TestSub (Data Row 6)" computerName="EPBYMINW4390" duration="00:00:00.0000077" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f86f42d-57aa-4614-b3c3-6f456127e2e1">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c417c8a-a033-46ef-84ad-2c745f2a2391" testId="bce56332-a41d-473d-83d1-471ea9bdf3fa" testName="TestSqrtString (Data Row 0)" computerName="EPBYMINW4390" duration="00:00:00.0002752" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c417c8a-a033-46ef-84ad-2c745f2a2391">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb8e4138-2f79-407d-90b0-845347d2fc76" testId="f2061360-5ca6-439a-a9ed-9ad02984caa3" testName="TestSqrtString (Data Row 1)" computerName="EPBYMINW4390" duration="00:00:00.0000167" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb8e4138-2f79-407d-90b0-845347d2fc76">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3e8d63a-7fe1-423d-bbfb-cea16a0ff361" testId="3fd8dbf3-77a2-45d7-838b-303468925e1a" testName="TestSqrtString (Data Row 2)" computerName="EPBYMINW4390" duration="00:00:00.0030719" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3e8d63a-7fe1-423d-bbfb-cea16a0ff361">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTestProject1.CalculatorMSTest.TestSqrtString threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at UnitTestProject1.CalculatorMSTest.TestSqrtString() in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\CalculatorMSTest.cs:line 206
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd06d665-f819-4b51-bac0-ed5968598b02" testId="c2c5bf51-c2f4-464a-a1a3-deafd790e5f8" testName="TestSqrtString (Data Row 3)" computerName="EPBYMINW4390" duration="00:00:00.0004630" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd06d665-f819-4b51-bac0-ed5968598b02">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+        <ErrorInfo>
+          <Message>Test method UnitTestProject1.CalculatorMSTest.TestSqrtString threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.String.System.IConvertible.ToInt32(IFormatProvider provider)
+   at System.Convert.ToInt32(Object value)
+   at CSharpCalculator.Calculator.Sqrt(Object a)
+   at UnitTestProject1.CalculatorMSTest.TestSqrtString() in c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\CalculatorMSTest.cs:line 206
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2dad1df-f2cf-4416-9e0d-8a338582985c" testId="46f47e69-d766-4f4a-ab45-fe1c2e16b659" testName="TestSqrtString (Data Row 4)" computerName="EPBYMINW4390" duration="00:00:00.0000118" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2dad1df-f2cf-4416-9e0d-8a338582985c">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0746f3b2-701c-4416-b120-625ef46d873e" testId="60d95358-7432-4725-b8e4-fd749899a614" testName="TestSqrtString (Data Row 5)" computerName="EPBYMINW4390" duration="00:00:00.0000068" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0746f3b2-701c-4416-b120-625ef46d873e">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a23e8fa2-b98b-41f2-b476-dc539b705684" testId="a5698f7a-ed26-4065-a718-e9a102ee78d0" testName="TestSqrtString (Data Row 6)" computerName="EPBYMINW4390" duration="00:00:00.0000087" startTime="2017-07-06T17:04:42.7885370+03:00" endTime="2017-07-06T17:04:42.7885370+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a23e8fa2-b98b-41f2-b476-dc539b705684">
+      <Output>
+        <StdOut>MSTests run for Calculator have been started
+MSTests have been completed</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestAbs (Data Row 0)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="7d7ae331-562a-49ae-9b4d-d7b87f6a90d6">
+      <Execution id="58fee3fb-8c62-4595-8828-a62d1dfb2533" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 0)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 1)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="2a78d32f-6bb2-43f9-9d77-75b334998af2">
+      <Execution id="80cd5a3e-cdef-4058-9f2a-8b2d3f50dfe8" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 1)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 2)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="6d99a4f0-e7aa-420a-8662-5d162a5ca389">
+      <Execution id="d87ddc65-bcc1-4e54-9c2b-1f00f1132c0d" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 2)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 3)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="2143720b-5cbb-4368-a17e-c1977a979836">
+      <Execution id="77950319-2c74-48d0-aaaf-04a3debef7a4" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 3)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 4)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="3aefec40-dcbf-4bf6-9b11-a143ef9fd5a7">
+      <Execution id="981ef2b0-cc3b-4aeb-9d41-aa7073b3d4e1" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 4)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 5)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="c40b3004-dd04-4729-81fb-3983ee0e3264">
+      <Execution id="13870a7d-0796-4cf9-a430-790708297a53" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 5)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 6)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="adceae4e-32de-423b-a623-671682e9f0c7">
+      <Execution id="d5103c2f-4034-4bc4-8025-4037d4d0616e" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 6)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 7)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="035cf202-6fd6-4c44-a85c-ae695586d08e">
+      <Execution id="a54392d6-7a44-4853-80a8-e169330b8963" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 7)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 8)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="473295a6-c6c7-4ff1-8c2d-09a8c37a0007">
+      <Execution id="506e0be2-4936-467b-9529-90e016df2159" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 8)" />
+    </UnitTest>
+    <UnitTest name="TestAbs (Data Row 9)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="15b38854-23be-405f-8aa7-0c399ab82884">
+      <Execution id="9cd30ee6-af4e-49b2-a43c-a1122f3e0cfa" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAbs (Data Row 9)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 0)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="6e204378-956b-4564-a333-201122fb22d1">
+      <Execution id="98214bc8-f5a3-419d-a7b1-9f1632903433" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 0)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 1)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="0cbbc125-e3b8-4982-9ab1-3dc725542416">
+      <Execution id="03116000-e017-4285-99c2-e76503f46602" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 1)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 2)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="662391af-a707-4dd6-9827-7ebf94f001f3">
+      <Execution id="0f145727-6da6-404e-9c5a-a72cd44dbf2b" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 2)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 3)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="4ce7e163-3538-4aac-8898-a56b75f19566">
+      <Execution id="4354477c-b9db-41af-912a-aa52026f40aa" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 3)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 4)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="41cd113a-7f0a-4809-923a-21fde2eca4d8">
+      <Execution id="a22e1f5b-344f-4027-95f8-2e577a42fc5e" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 4)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 5)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="2b553552-784c-4634-a657-d04c88fff5a5">
+      <Execution id="ba07085d-dbcd-448a-b779-c3133144cdbf" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 5)" />
+    </UnitTest>
+    <UnitTest name="TestAdd (Data Row 6)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="6b8f53ae-eb96-4e05-8939-028f701921a2">
+      <Execution id="7bf8a3bf-414a-4de9-b0aa-c3f9bd4b3bc3" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestAdd (Data Row 6)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 0)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="80522f34-adde-4d47-baa3-f17faa65c9f1">
+      <Execution id="a39a6c11-c815-4d7e-adcb-1c8b6440da2b" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 0)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 1)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="5705e85e-3a30-4556-8d2e-85564032ab7e">
+      <Execution id="a5d0de41-d04c-4c44-8777-7dc93ac9ddd6" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 1)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 2)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="336ef4f4-d3e3-4e38-b461-c2155ae27c96">
+      <Execution id="9ebc0696-5f5c-492c-9a1a-79e79deec54b" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 2)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 3)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="3665dce3-07ba-4aa9-8f99-97b1110b3410">
+      <Execution id="ef89ff85-95e8-4086-a7dc-e29669efa421" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 3)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 4)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="7e78ccbc-7f01-4cc3-9273-047d6d3d9ee8">
+      <Execution id="9d5bf705-e071-41e6-8da5-abc079f304a5" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 4)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 5)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="45e34de8-adff-4b86-8566-3dd8e9eeb724">
+      <Execution id="a4ea525f-d454-4a5f-ac00-dd0d8be68191" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 5)" />
+    </UnitTest>
+    <UnitTest name="TestSub (Data Row 6)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="8b4e8bdf-c463-4ea6-b67c-20c7430dd740">
+      <Execution id="0f86f42d-57aa-4614-b3c3-6f456127e2e1" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSub (Data Row 6)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 0)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="bce56332-a41d-473d-83d1-471ea9bdf3fa">
+      <Execution id="8c417c8a-a033-46ef-84ad-2c745f2a2391" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 0)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 1)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="f2061360-5ca6-439a-a9ed-9ad02984caa3">
+      <Execution id="bb8e4138-2f79-407d-90b0-845347d2fc76" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 1)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 2)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="3fd8dbf3-77a2-45d7-838b-303468925e1a">
+      <Execution id="e3e8d63a-7fe1-423d-bbfb-cea16a0ff361" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 2)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 3)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="c2c5bf51-c2f4-464a-a1a3-deafd790e5f8">
+      <Execution id="fd06d665-f819-4b51-bac0-ed5968598b02" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 3)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 4)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="46f47e69-d766-4f4a-ab45-fe1c2e16b659">
+      <Execution id="c2dad1df-f2cf-4416-9e0d-8a338582985c" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 4)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 5)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="60d95358-7432-4725-b8e4-fd749899a614">
+      <Execution id="0746f3b2-701c-4416-b120-625ef46d873e" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 5)" />
+    </UnitTest>
+    <UnitTest name="TestSqrtString (Data Row 6)" storage="c:\users\yuliya_kaborda@epam.com\documents\visual studio 2013\projects\unittestproject1\unittestproject1\bin\debug\unittestproject1.dll" id="a5698f7a-ed26-4065-a718-e9a102ee78d0">
+      <Execution id="a23e8fa2-b98b-41f2-b476-dc539b705684" />
+      <TestMethod codeBase="c:\Users\yuliya_kaborda@epam.com\Documents\Visual Studio 2013\Projects\UnitTestProject1\UnitTestProject1\bin\Debug\UnitTestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UnitTestProject1.CalculatorMSTest" name="TestSqrtString (Data Row 6)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7d7ae331-562a-49ae-9b4d-d7b87f6a90d6" executionId="58fee3fb-8c62-4595-8828-a62d1dfb2533" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a78d32f-6bb2-43f9-9d77-75b334998af2" executionId="80cd5a3e-cdef-4058-9f2a-8b2d3f50dfe8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d99a4f0-e7aa-420a-8662-5d162a5ca389" executionId="d87ddc65-bcc1-4e54-9c2b-1f00f1132c0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2143720b-5cbb-4368-a17e-c1977a979836" executionId="77950319-2c74-48d0-aaaf-04a3debef7a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3aefec40-dcbf-4bf6-9b11-a143ef9fd5a7" executionId="981ef2b0-cc3b-4aeb-9d41-aa7073b3d4e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c40b3004-dd04-4729-81fb-3983ee0e3264" executionId="13870a7d-0796-4cf9-a430-790708297a53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adceae4e-32de-423b-a623-671682e9f0c7" executionId="d5103c2f-4034-4bc4-8025-4037d4d0616e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="035cf202-6fd6-4c44-a85c-ae695586d08e" executionId="a54392d6-7a44-4853-80a8-e169330b8963" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="473295a6-c6c7-4ff1-8c2d-09a8c37a0007" executionId="506e0be2-4936-467b-9529-90e016df2159" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="15b38854-23be-405f-8aa7-0c399ab82884" executionId="9cd30ee6-af4e-49b2-a43c-a1122f3e0cfa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e204378-956b-4564-a333-201122fb22d1" executionId="98214bc8-f5a3-419d-a7b1-9f1632903433" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0cbbc125-e3b8-4982-9ab1-3dc725542416" executionId="03116000-e017-4285-99c2-e76503f46602" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="662391af-a707-4dd6-9827-7ebf94f001f3" executionId="0f145727-6da6-404e-9c5a-a72cd44dbf2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ce7e163-3538-4aac-8898-a56b75f19566" executionId="4354477c-b9db-41af-912a-aa52026f40aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41cd113a-7f0a-4809-923a-21fde2eca4d8" executionId="a22e1f5b-344f-4027-95f8-2e577a42fc5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b553552-784c-4634-a657-d04c88fff5a5" executionId="ba07085d-dbcd-448a-b779-c3133144cdbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b8f53ae-eb96-4e05-8939-028f701921a2" executionId="7bf8a3bf-414a-4de9-b0aa-c3f9bd4b3bc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80522f34-adde-4d47-baa3-f17faa65c9f1" executionId="a39a6c11-c815-4d7e-adcb-1c8b6440da2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5705e85e-3a30-4556-8d2e-85564032ab7e" executionId="a5d0de41-d04c-4c44-8777-7dc93ac9ddd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="336ef4f4-d3e3-4e38-b461-c2155ae27c96" executionId="9ebc0696-5f5c-492c-9a1a-79e79deec54b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3665dce3-07ba-4aa9-8f99-97b1110b3410" executionId="ef89ff85-95e8-4086-a7dc-e29669efa421" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e78ccbc-7f01-4cc3-9273-047d6d3d9ee8" executionId="9d5bf705-e071-41e6-8da5-abc079f304a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45e34de8-adff-4b86-8566-3dd8e9eeb724" executionId="a4ea525f-d454-4a5f-ac00-dd0d8be68191" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b4e8bdf-c463-4ea6-b67c-20c7430dd740" executionId="0f86f42d-57aa-4614-b3c3-6f456127e2e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bce56332-a41d-473d-83d1-471ea9bdf3fa" executionId="8c417c8a-a033-46ef-84ad-2c745f2a2391" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2061360-5ca6-439a-a9ed-9ad02984caa3" executionId="bb8e4138-2f79-407d-90b0-845347d2fc76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fd8dbf3-77a2-45d7-838b-303468925e1a" executionId="e3e8d63a-7fe1-423d-bbfb-cea16a0ff361" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2c5bf51-c2f4-464a-a1a3-deafd790e5f8" executionId="fd06d665-f819-4b51-bac0-ed5968598b02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46f47e69-d766-4f4a-ab45-fe1c2e16b659" executionId="c2dad1df-f2cf-4416-9e0d-8a338582985c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60d95358-7432-4725-b8e4-fd749899a614" executionId="0746f3b2-701c-4416-b120-625ef46d873e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5698f7a-ed26-4065-a718-e9a102ee78d0" executionId="a23e8fa2-b98b-41f2-b476-dc539b705684" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="31" executed="31" passed="27" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -10,6 +10,7 @@ using NUnit.Framework;
 namespace NUnitTestProject
 {
 	[TestFixture]
+	[Parallelizable(ParallelScope.Self)]
 	public class NUnitTest
 	{
 		private Calculator inst;
@@ -183,7 +184,7 @@ namespace NUnitTestProject
 		{
 
 			//Assert
-			Assert.IsFalse(inst.isPositive(arg), string.Format("Bug with positive definition of {0}", arg)); //  !!Bug: Null is neither Negative, nor Positive
+			Assert.IsFalse(inst.isPositive(arg), string.Format("Bug with positive definition of {0}", arg));
 
 
 		}
@@ -206,7 +207,11 @@ namespace NUnitTestProject
 		[TearDown]
 		public void CleanUp()
 		{
+
+			inst = null;
 			Console.WriteLine("NUmitTests have been completed");
+			
+
 		}
 	}
 }
